@@ -1,0 +1,27 @@
+{
+  "name": "potion-store",
+  "version": "1.0.0",
+  "description": "Example project for a potion store",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaviopereira/potion-store.git"
+  },
+  "author": "Flávio Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flaviopereira/potion-store/issues"
+  },
+  "homepage": "https://github.com/flaviopereira/potion-store#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-minify": "^2.1.0",
+    "gulp-rimraf": "^0.2.2"
+  }
+}
