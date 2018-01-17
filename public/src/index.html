@@ -2,7 +2,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Your Website</title>
+        <title>Potion Store</title>
+
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
     </head>
 
     <body>
@@ -10,24 +12,23 @@
             <h1>Potion Store</h1>
         </header>
 
-        <section id="controls">
-            <p>Menu</p>
-            <aside>
-                <h3>Filters</h3>
+        <section class="container clearfix">
+            <div id="controls">
+                <aside>
+                    <h3>Filters</h3>
 
-                <p>Price</p>
-                <div id="priceContainer"></div>
+                    <p>Price</p>
+                    <div id="priceContainer" class="clearfix"></div>
 
-                <p>Required Level</p>
-                <div id="levelContainer"></div>
+                    <p>Required Level</p>
+                    <div id="levelContainer" class="clearfix"></div>
 
-                <p>Tags</p>
-                <div id="tagContainer"></div>
-            </aside>
+                    <p>Tags</p>
+                    <div id="tagContainer" class="clearfix"></div>
+                </aside>
+            </div>
+            <div id="mainContent"></div>
         </section>
-
-        <section id="mainContent"></section>
-
     </body>
     <script src="/js/main-min.js"></script>
 </html>

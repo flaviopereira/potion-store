@@ -1,0 +1,62 @@
+body, html {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+};
+
+.clearfix {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+header, .container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+div {
+    &#controls {
+        float: left;
+        width: 25%
+    };
+    &#mainContent {
+        float: right;
+        width: 75%
+    }
+}
+
+#priceContainer,
+#levelContainer,
+#tagContainer {
+  a {
+    display: block;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #08adad;
+    border-radius: 5px;
+    &.active{
+      background-color: #1a7070;
+    }
+  }
+}
+
+.item {
+  padding-left: 25px;
+  border-left: 1px solid;
+  margin: 35px 0;
+  .itemPrice,
+  .itemLevel {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  .itemTags {
+    font-size: 10px;
+    margin: 0;
+  }
+}
