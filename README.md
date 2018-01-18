@@ -10,3 +10,5 @@ npm install
 gulp
 npm start
 ```
+Node v8.9.4
+NPM v5.6.0
