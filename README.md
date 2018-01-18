@@ -4,6 +4,9 @@ Simple Node API serving HTML page with potion listing.
 
 To run the app make sure you have gulp installed: ```npm install -g gulp```
 
-```npm install
+Then run
+```
+npm install
 gulp
-npm start```
+npm start
+```
